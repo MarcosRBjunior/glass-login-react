@@ -4,7 +4,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://dominio-da-api.invalid/api/:path*"
+      "destination": "https://autenticador-five.vercel.app/api/:path*"
     },
     { "source": "/(.*)", "destination": "/index.html" }
   ],

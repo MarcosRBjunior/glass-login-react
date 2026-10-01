@@ -65,7 +65,7 @@ sessão num cookie httpOnly.
 
 - **Desenvolvimento:** suba a API em `http://localhost:3000`. O proxy do Vite
   (`vite.config.js`) repassa `/api` para ela.
-- **Vercel:** o `vercel.json` repassa `/api` para o domínio da API e manda os outros
-  caminhos para o `index.html`. Troque `https://dominio-da-api.invalid` pelo domínio
-  de produção da API. O passo a passo completo está em `docs/deploy-vercel.md`, no
+- **Vercel:** o `vercel.json` repassa `/api` para a API em produção
+  (`https://autenticador-five.vercel.app`) e manda os outros caminhos para o
+  `index.html`. O passo a passo completo está em `docs/deploy-vercel.md`, no
   repositório da API.
