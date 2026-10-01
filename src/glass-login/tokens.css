@@ -1,0 +1,49 @@
+:root {
+  --brand-blue: #0085ff;
+  --brand-navy: #003465;
+  --glass-fill: #5882c147;
+  --glass-tint: #5882c1;
+  --glass-stroke-start: #ffffff80;
+  --glass-stroke-end: #ffffff14;
+  --white: #ffffff;
+  --surface-input: var(--white);
+  --input-ink: #1e2a3b;
+  --placeholder: #a6a6a6;
+  --icon-muted: #b4b4b4;
+  --github-ink: #1b1f23;
+  --facebook-blue: #1877f2;
+  --decor-highlight: #d9edff;
+  --decor-light: #8ccaff;
+  --decor-mid: #3a8eec;
+  --decor-deep: #0c4fa3;
+  --card-pad-y: 40px;
+  --card-pad-x: 80px;
+  --gap-section: 40px;
+  --gap-group: 24px;
+  --gap-field: 16px;
+  --gap-social: 17px;
+  --gap-label: 9px;
+  --gap-link: 10px;
+  --input-pad-x: 16px;
+  --radius-frame: 24px;
+  --radius-card: 28.5px;
+  --radius-control: 7.1px;
+  --radius-input: 5px;
+  --shadow-frame: 0 4px 91px rgba(0, 20, 51, 0.10), 0 16px 140px rgba(0, 20, 51, 0.10), 0 36px 190px rgba(0, 20, 51, 0.09), 0 64px 240px rgba(0, 20, 51, 0.07), 0 100px 288px rgba(0, 20, 51, 0.05);
+  --shadow-decor: 0 4px 10.7px rgba(0, 26, 77, 0.35);
+  --glass-blur: 17.8px;
+  --glass-opacity: 0.28;
+  --decor-opacity: 0.5;
+  --frame-width: 1366px;
+  --frame-height: 768px;
+  --card-width: 410px;
+  --card-height: 558px;
+  --control-width: 250px;
+  --button-height: 40px;
+  --input-height: 31px;
+  --social-width: 72px;
+  --social-height: 35px;
+  --font-sans: Gilroy, Outfit, system-ui, sans-serif;
+}
+@font-face { font-family: Outfit; font-weight: 500; font-display: swap; src: url('./fonts/Outfit-Medium.woff2') format('woff2'); }
+@font-face { font-family: Outfit; font-weight: 700; font-display: swap; src: url('./fonts/Outfit-Bold.woff2') format('woff2'); }

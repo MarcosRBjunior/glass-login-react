@@ -1,0 +1,4 @@
+.gl-decor { display: block; width: 100%; height: 100%; pointer-events: none; }
+.gl-decor .lum { mix-blend-mode: luminosity; }
+.gl-decor .soft { opacity: var(--decor-opacity, 0.5); }
+.gl-decor .shadowed { filter: drop-shadow(0 4px 10.7px rgba(0, 26, 77, 0.35)); }

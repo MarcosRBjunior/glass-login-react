@@ -1,0 +1,16 @@
+.gl-btn {
+  box-sizing: border-box;
+  width: var(--control-width, 250px);
+  height: var(--button-height, 40px);
+  flex-shrink: 0;
+  border: 0;
+  border-radius: var(--radius-control, 7.1px);
+  background: var(--brand-navy, #003465);
+  color: var(--white, #fff);
+  font: 700 16px/20px var(--font-sans, Gilroy, Outfit, system-ui, sans-serif);
+  cursor: pointer;
+  transition: filter 0.15s ease;
+}
+.gl-btn:hover { filter: brightness(1.12); }
+.gl-btn:disabled { opacity: 0.6; cursor: not-allowed; filter: none; }
+.gl-btn:focus-visible { outline: 2px solid var(--white, #fff); outline-offset: 2px; }

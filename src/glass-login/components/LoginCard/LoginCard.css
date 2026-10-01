@@ -1,0 +1,27 @@
+/* Ritmo vertical medido no layout original */
+.gl-logo { margin: 0; font-size: 24px; line-height: 29px; font-weight: 700; text-align: center; }
+.gl-title { margin: var(--gap-section, 40px) 0 0; font-size: 24px; line-height: 29px; font-weight: 700; }
+
+.gl-form { display: contents; }
+.gl-fields { display: flex; flex-direction: column; margin-top: var(--gap-group, 24px); }
+
+.gl-link { color: var(--white, #fff); text-decoration: none; font-size: 13px; line-height: 16px; font-weight: 500; }
+.gl-link:hover { text-decoration: underline; }
+.gl-forgot { align-self: flex-start; margin-top: var(--gap-link, 10px); }
+
+.gl-error {
+  margin: 8px 0 -8px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  color: var(--white, #fff);
+}
+
+.gl-submit { margin-top: var(--gap-group, 24px); }
+
+.gl-sep { margin: var(--gap-group, 24px) 0 0; text-align: center; font-size: 13px; line-height: 16px; font-weight: 500; }
+.gl-social-row { margin-top: var(--gap-group, 24px); }
+
+.gl-footer { margin: auto 0 0; text-align: center; font-size: 10px; line-height: 12px; font-weight: 500; }
+.gl-footer a { color: var(--white, #fff); font-weight: 700; text-decoration: none; }
+.gl-footer a:hover { text-decoration: underline; }

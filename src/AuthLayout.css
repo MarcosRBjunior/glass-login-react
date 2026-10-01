@@ -1,0 +1,43 @@
+/* Em telas baixas, a página rola em vez de cortar o card (que cresce com o
+   formulário: ver index.css). */
+.gl-page.app-page {
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 32px 16px;
+}
+.gl-page.app-page > .gl-card { position: relative; left: auto; top: auto; transform: none; }
+
+/* Link com cara de botão ("Entrar", "Pedir um novo link") */
+a.gl-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.app-fields {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-field, 16px);
+  margin-top: var(--gap-group, 24px);
+}
+
+.app-hint { margin: 6px 0 0; font-size: 11px; line-height: 14px; font-weight: 500; opacity: 0.85; }
+.app-field-error { margin: 6px 0 0; font-size: 12px; line-height: 16px; font-weight: 500; color: #ffd6dc; }
+
+.app-text { margin: var(--gap-group, 24px) 0 0; font-size: 13px; line-height: 18px; font-weight: 500; }
+
+.app-alert {
+  margin: var(--gap-group, 24px) 0 0;
+  padding: 10px 12px;
+  border-radius: var(--radius-input, 5px);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.app-alert--notice { background: rgba(255, 255, 255, 0.16); }
+.app-alert--error { background: rgba(110, 0, 25, 0.35); color: #ffd6dc; }

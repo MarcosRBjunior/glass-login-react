@@ -1,0 +1,34 @@
+.gl-page {
+  position: relative;
+  width: var(--frame-width, 1366px);
+  height: var(--frame-height, 768px);
+  border-radius: var(--radius-frame, 24px);
+  overflow: hidden;
+  isolation: isolate;
+  background: radial-gradient(
+    ellipse 60% 110% at 57% 55%,
+    var(--brand-blue, #0085ff) 0%,
+    var(--brand-navy, #003465) 100%
+  );
+  box-shadow: var(--shadow-frame);
+  font-family: var(--font-sans, Gilroy, Outfit, system-ui, sans-serif);
+}
+
+.gl-page--full {
+  width: 100vw;
+  height: 100vh;
+  min-height: 600px;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.gl-page > .gl-decor { position: absolute; inset: 0; }
+.gl-page > .gl-card { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); }
+
+/* Telas pequenas: card ocupa a largura disponível */
+@media (max-width: 480px) {
+  .gl-page--full > .gl-card {
+    width: calc(100vw - 32px);
+    padding-inline: max(24px, calc((100vw - 32px - 250px) / 2));
+  }
+}

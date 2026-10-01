@@ -1,0 +1,18 @@
+.gl-social { display: flex; gap: var(--gap-social, 17px); }
+
+.gl-social-btn {
+  box-sizing: border-box;
+  width: var(--social-width, 72px);
+  height: var(--social-height, 35px);
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-control, 7.1px);
+  background: var(--surface-input, #fff);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+.gl-social-btn:hover { transform: translateY(-1px); }
+.gl-social-btn svg { width: 18px; height: 18px; display: block; }
+.gl-social-btn:focus-visible { outline: 2px solid var(--white, #fff); outline-offset: 2px; }
